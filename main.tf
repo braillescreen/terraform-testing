@@ -22,4 +22,5 @@ resource "aws_instance" "app_server" {
     Name = var.instance_name
   }
   subnet_id = aws_subnet.subnet-uno.id
+  user_data = "${file("scripts/setup.sh")}"
 }
