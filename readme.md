@@ -4,6 +4,8 @@ Learning about Terraform.
 
 This is a little place where I set up a basic Terraform configuration. I will share the resources I used below, and try to explain problems I had to solve in the process too.
 
+Please note: If you use this at the very second, it will download an image of Ubuntu 12, of all things. I will find a new AMI soon, but if you use this for anything serious... You will have to run do-release-upgrade. Sounds fun, yeah?
+
 ## What does this configuration do?
 * Creates a basic Ubuntu image in the AWS (Amazon Web Services) cloud.
 * Creates a basic network allowing SSH access.
